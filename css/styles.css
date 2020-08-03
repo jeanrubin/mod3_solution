@@ -1,0 +1,85 @@
+body{
+	border: 1px solid;
+}
+h1{
+	text-align: center;
+	font-family: italic;
+	font-weight: bold;
+}
+p {
+  clear: right;
+  font-style: normal;
+  font-family: sans-serif;
+  text-transform: lowercase;
+  margin: 0;
+  padding: 10px;
+}
+.container-fluid{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.Chicken, .Beef, .Sushi{
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+	background-color: grey;
+	font-size: 1.5em;
+}
+section p{
+	background-color: grey;
+	margin-bottom: 15px;
+}
+
+#nav-header{
+	background-color: grey;
+	border: 1px solid;
+	border-radius: 0;
+}
+.navbar-nav{
+	background-color: white;
+}
+.navbar-light .navbar-brand{
+	background-color: grey;
+	border-radius: 0;
+	
+}
+.navbar-brand{
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+.navbar-brand p{
+	color: #000;
+}
+.navbar-brand span{
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+	background-color: white;	
+}
+#nav-list a{
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #e7e7e7;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+
+#food-tile{
+	background-color: grey;
+}
+@media (min-width: 768px){
+	.navbar-expand-md .navbar-collapse{
+		display: none!important;
+	}	
+}
